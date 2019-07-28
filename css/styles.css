@@ -124,3 +124,21 @@ li {
 .responsive a:active {
     color: blueviolet;
 }
+
+#ip {
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 6px;
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+}
+
+#ipButton {
+    background-color: rgb(59, 59, 59);
+    border: none;
+    color: lightslategray;
+    font-size: 12px;
+    padding-left: 0px;
+}

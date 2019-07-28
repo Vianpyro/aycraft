@@ -5,8 +5,10 @@
         <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="version" content="0.0.2" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Aycraft</title>
+        <script src="js/copy_ip.js"></script>
     </head>
     <body>
         <header>
@@ -17,7 +19,12 @@
                     <li class="adress">
                         <figure>
                             Server ip:
-                            <strong class="ip">data.craft.gg</strong>
+                            <input type="text" value="data.craft.gg" id="ip" readonly />
+                            <button onclick="copyIp()" id="ipButton"><span>Copy</span></button>
+
+                            <!-- <input type="text" value="data.craft.gg" id="ip" />
+                            <button onclick="copyIp()">Copy</button> -->
+                            <!-- <strong class="ip">data.craft.gg</strong> -->
                         </figure>
                     </li>
                 </ul>
