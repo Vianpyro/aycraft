@@ -1,0 +1,97 @@
+body {
+    background: rgb(59, 59, 59);
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-size: 100%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo a {
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -20px;
+    width: 300px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.adress .ip {
+    color: rgb(255, 125, 0);
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 200px 100px 150px 100px;
+    flex-direction: row;
+}
+
+.features figcaption {
+    color: white;
+}
+
+.features figure {
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure:hover {
+    background-color: darkgray;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+}
+
+.features figure img {
+    background-color: lightgray;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+
+.responsive a:link,
+.responsive a:visited {
+    color: aqua;
+    text-decoration: none;
+    background-color: lightslategray;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.responsive a:hover {
+    color: blue;
+    background-color: lightgray;
+}
+
+.responsive a:active {
+    color: blueviolet;
+}
