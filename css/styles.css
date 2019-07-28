@@ -6,6 +6,17 @@ body {
     padding: 0;
 }
 
+figure img {
+    box-shadow: gray 0 0 10px;
+}
+
+footer,
+.fakefooter,
+.fakefooter figure img {
+    background-color: rgb(50, 50, 50);
+    border: 2px solid rgb(30, 30, 30);
+}
+
 header {
     background: black;
     background-image: url("../img/banner.png");
@@ -29,15 +40,37 @@ header .logo a {
     width: 300px;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+.copyright {
+    color: gray;
+    font-size: 12px;
+    margin: 3px;
 }
 
-li {
+.copyright,
+.responsive li,
+.features figure {
+    padding: 0px;
+}
+
+.fakefooter figure img {
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.responsive li {
+    margin-right: 0px;
+}
+
+nav li {
     display: inline-block;
     margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .cover {
@@ -48,16 +81,27 @@ li {
     object-fit: contain;
 }
 
+.fakefooter,
 .features {
     align-items: center;
-    align-content: space-around;
     display: flex;
     flex-flow: row wrap;
+    margin-top: 200px;
+}
+
+.fakefooter {
+    align-content: space-between;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 0;
+}
+
+.features {
+    align-content: space-around;
     justify-content: space-around;
-    margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
     padding: 30px;
 }
 
@@ -81,7 +125,6 @@ li {
     background-color: lightgray;
     border: 1px solid white;
     border-radius: 20px;
-    box-shadow: gray 0 0 10px;
     width: 200px;
 }
 
@@ -95,6 +138,10 @@ li {
     transition-duration: 500ms;
     transition-delay: 100ms;
     transform: scale(1.5);
+}
+
+.fakefooter img {
+    padding-right: 50;
 }
 
 .responsive {
