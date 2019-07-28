@@ -73,10 +73,10 @@ li {
 .features figure a {
     text-decoration: none;
     color: lightgray;
+    font-size: 16px;
 }
 
 .features figure img {
-    width: 200px;
     height: 200px;
     background-color: lightgray;
     border: 1px solid white;
@@ -143,4 +143,44 @@ li {
     color: lightgreen;
     font-size: 12px;
     padding-left: 0px;
+}
+
+@media screen and (max-width: 612px) {
+    .responsive {
+        border-radius: 8px;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .features {
+        padding: 15px;
+    }
+
+    .features figure {
+        margin: 15px;
+        width: 150px;
+    }
+
+    .features figure a {
+        font-size: 8px;
+    }
+
+    .features figure img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .responsive {
+        border-radius: 6px;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    header {
+        background-size: 200%;
+    }
 }
