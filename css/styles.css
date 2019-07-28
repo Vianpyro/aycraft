@@ -84,6 +84,7 @@ li {
     background-color: darkgray;
     transition-duration: 500ms;
     transition-delay: 100ms;
+    transform: scale(1.5);
 }
 
 .features figure img {
@@ -92,6 +93,14 @@ li {
     border-radius: 20px;
     box-shadow: gray 0 0 10px;
     width: 200px;
+}
+
+.responsive {
+    background-color: rgb(200, 200, 200);
+    border: 6px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    margin-right: 35%;
+    margin-left: 35%;
 }
 
 .responsive a:link,
