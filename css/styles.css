@@ -40,10 +40,6 @@ li {
     margin-right: 20px;
 }
 
-.adress .ip {
-    color: rgb(255, 125, 0);
-}
-
 .cover {
     object-fit: cover;
 }
@@ -53,26 +49,40 @@ li {
 }
 
 .features {
+    align-items: center;
+    align-content: space-around;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
     margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+    padding: 30px;
 }
+
 .features figure {
     background-color: black;
     border-radius: 20px;
-    margin: auto;
+    margin: 30px;
     text-align: center;
     text-transform: uppercase;
     width: 200px;
 }
 
+.features figure a {
+    text-decoration: none;
+    color: lightgray;
+}
+
 .features figure img {
     width: 200px;
     height: 200px;
+    background-color: lightgray;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
 }
 
 .features figure figcaption:hover {
@@ -85,14 +95,6 @@ li {
     transition-duration: 500ms;
     transition-delay: 100ms;
     transform: scale(1.5);
-}
-
-.features figure img {
-    background-color: lightgray;
-    border: 1px solid white;
-    border-radius: 20px;
-    box-shadow: gray 0 0 10px;
-    width: 200px;
 }
 
 .responsive {
