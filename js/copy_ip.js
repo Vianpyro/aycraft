@@ -13,7 +13,7 @@ function copyIp() {
     clearSelection();
 
     var ipButton = document.getElementById("ipButton");
-    ipButton.innerHTML = "Copied: " + copyText.value;
+    ipButton.innerHTML = 'Copied: "' + copyText.value + '" to clipboard.';
 }
 
 function outIp() {

@@ -11,8 +11,8 @@ figure img {
 }
 
 footer,
-.fakefooter,
-.fakefooter figure img {
+footer,
+footer figure img {
     background-color: rgb(50, 50, 50);
     border: 2px solid rgb(30, 30, 30);
 }
@@ -22,7 +22,7 @@ header {
     background-image: url("../img/banner.png");
     background-position: center;
     background-size: 100%;
-    height: 150px;
+    height: 175px;
     padding: 20px;
     text-align: center;
 }
@@ -52,7 +52,7 @@ header .logo a {
     padding: 0px;
 }
 
-.fakefooter figure img {
+footer figure img {
     border-radius: 4px;
     height: 30px;
     width: 30px;
@@ -81,15 +81,14 @@ ul {
     object-fit: contain;
 }
 
-.fakefooter,
+footer,
 .features {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 200px;
 }
 
-.fakefooter {
+footer {
     align-content: space-between;
     justify-content: space-between;
     margin-left: 0;
@@ -98,10 +97,13 @@ ul {
 }
 
 .features {
+    background-image: url("../img/background.png");
+    background-repeat: repeat-y;
+    background-position: top;
+    background-size: 100%;
     align-content: space-around;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 200px auto 100px auto;
     padding: 30px;
 }
 
@@ -140,7 +142,7 @@ ul {
     transform: scale(1.5);
 }
 
-.fakefooter img {
+footer img {
     padding-right: 50;
 }
 
