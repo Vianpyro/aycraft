@@ -1,0 +1,72 @@
+.features figure {
+    padding: 0;
+}
+
+.features {
+    align-content: space-around;
+    align-items: center;
+    background-image: url(../../img/background.png);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 200px auto 100px;
+    padding: 30px;
+}
+
+.features figure {
+    background-color: #000;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure a {
+    color: lightgray;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.features figure figcaption:hover {
+    color: #000;
+    transition-duration: 500ms;
+}
+
+.features figure img {
+    background-color: lightgray;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.features figure:hover {
+    background-color: #a9a9a9;
+    transform: scale(1.5);
+    transition-delay: 100ms;
+    transition-duration: 500ms;
+}
+
+@media screen and (max-width: 596px) {
+    .features {
+        padding: 15px;
+    }
+
+    .features figure {
+        margin: 15px;
+        width: 150px;
+    }
+
+    .features figure a {
+        font-size: 8px;
+    }
+
+    .features figure img {
+        height: 150px;
+        width: 150px;
+    }
+}

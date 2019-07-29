@@ -2,22 +2,24 @@
 <html lang="en">
     <head>
         <link rel="icon" href="img/logo.png" />
+        <link rel="stylesheet" href="css/index/features.css" />
         <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="version" content="0.0.2" />
+        <meta name="version" content="0.1.1" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Aycraft</title>
         <script src="js/copy_ip.js"></script>
     </head>
+
     <body>
         <header>
             <nav>
                 <ul class="info">
                     <li class="logo"><a href="index.html">Aycraft logo</a></li>
                     <br />
-                    <li class="adress">
-                        <figure>
+                    <li>
+                        <figure class="ip">
                             Server ip:
                             <input type="text" value="data.craft.gg" id="ip" readonly />
                             <button onclick="copyIp()" onmouseout="outIp()" id="ipButton"><span>Copy</span></button>
@@ -27,34 +29,43 @@
                 <ul class="responsive">
                     <!-- <li><a href="">Log in</a></li> -->
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">Games</a></li>
+                    <li><a href="pages/games.html">Games</a></li>
                     <li><a href="https://github.com/Aycraft" target="_blank">GitHub</a></li>
-                    <li><a href="">Rules</a></li>
-                    <li><a href="">Support</a></li>
+                    <li><a href="pages/rules.html">Rules</a></li>
+                    <li><a href="pages/support.html">Support</a></li>
                 </ul>
             </nav>
         </header>
         <section class="features">
             <figure>
-                <img src="img/banner.png" alt="brand new spawn" class="cover" />
-                <figcaption>Visit this beautiful spawn of the V6!</figcaption>
+                <a href="https://discord.me/Aycraft" target="_blank">
+                    <img src="img/discord.png" alt="follow discord" class="cover" />
+                    <figcaption>Join the chat on discord!</figcaption>
+                </a>
             </figure>
             <figure>
-                <img src="img/twitter_bird.png" alt="follow twitter" class="contain" />
-                <figcaption>Follow us on Twitter!</figcaption>
+                <a href="#">
+                    <img src="img/banner.png" alt="brand new spawn" class="cover" />
+                    <figcaption>Visit this beautiful spawn of the V6!</figcaption>
+                </a>
             </figure>
             <figure>
-                <img src="img/logo.png" alt="brand new logo" class="cover" />
-                <figcaption>The server has a brand new logo!</figcaption>
+                <a href="https://twitter.com/serveuraycraft" target="_blank">
+                    <img src="img/twitter_bird.png" alt="follow twitter" class="contain" />
+                    <figcaption>Follow us on Twitter!</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#">
+                    <img src="img/logo.png" alt="brand new logo" class="cover" />
+                    <figcaption>The server has a brand new logo!</figcaption>
+                </a>
             </figure>
         </section>
         <footer>
-            <ul>
-                <li class="about_us"><figure></figure></li>
-                <li class="useful_links"><figure></figure></li>
-                <li class="follow_us"><figure></figure></li>
-                <li class="store"><figure></figure></li>
-            </ul>
+            <p class="copyright">&copy; Aycraft web site by Vianpyro - MIT License</p>
         </footer>
     </body>
 </html>
+
+<!-- <a>Aycraft's our little baby Minecraft&copy; vanilla server. What it means? Simply ; we didn't ever used any plug-in to manage it! It's 100% running by Minecraft functions!</a> -->

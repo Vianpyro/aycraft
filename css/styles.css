@@ -1,5 +1,108 @@
+#ip {
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 6px;
+    color: #ffd700;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+}
+
+#ipButton {
+    background-color: #3b3b3b;
+    border: none;
+    color: #90ee90;
+    font-size: 12px;
+    padding-left: 0;
+}
+
+.adress .ip {
+    color: #ff7d00;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 200px auto 150px;
+}
+
+.features figure {
+    background-color: #000;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure figcaption:hover {
+    color: #000;
+    transition-duration: 500ms;
+}
+
+.features figure img {
+    height: 200px;
+    width: 200px;
+}
+
+.features figure img {
+    background-color: lightgray;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+
+.features figure:hover {
+    background-color: #a9a9a9;
+    transform: scale(1.5);
+    transition-delay: 100ms;
+    transition-duration: 500ms;
+}
+
+.responsive {
+    background-color: #c8c8c8;
+    border: 20px solid #c8c8c8;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.responsive li a:active {
+    color: #8a2be2;
+}
+
+.responsive li a:hover {
+    padding: 20px;
+    background-color: #969696;
+    border-radius: 8px;
+    color: blue;
+    transition-delay: 75ms;
+    transition-duration: 500ms;
+}
+
+.responsive a:link,
+.responsive a:visited {
+    background-color: #c8c8c8;
+    border-radius: 6px;
+    color: #007de1;
+    padding: 4px;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
 body {
-    background: rgb(59, 59, 59);
+    background: #3b3b3b;
     color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -7,8 +110,8 @@ body {
 }
 
 header {
-    background: black;
-    background-image: url("../img/banner.png");
+    background: #000;
+    background-image: url(../img/banner.png);
     background-position: center;
     background-size: 100%;
     height: 150px;
@@ -17,7 +120,7 @@ header {
 }
 
 header .logo a {
-    background-image: url("../img/logo.png");
+    background-image: url(../img/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200px;
@@ -29,116 +132,23 @@ header .logo a {
     width: 300px;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
 li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.adress .ip {
-    color: rgb(255, 125, 0);
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.cover {
-    object-fit: cover;
-}
-
-.contain {
-    object-fit: contain;
-}
-
-.features {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-}
-.features figure {
-    background-color: black;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-    width: 200px;
-}
-
-.features figure img {
-    width: 200px;
-    height: 200px;
-}
-
-.features figure figcaption:hover {
-    color: black;
-    transition-duration: 500ms;
-}
-
-.features figure:hover {
-    background-color: darkgray;
-    transition-duration: 500ms;
-    transition-delay: 100ms;
-    transform: scale(1.5);
-}
-
-.features figure img {
-    background-color: lightgray;
-    border: 1px solid white;
-    border-radius: 20px;
-    box-shadow: gray 0 0 10px;
-    width: 200px;
-}
-
-.responsive {
-    background-color: rgb(200, 200, 200);
-    border: 6px solid rgb(200, 200, 200);
-    border-radius: 10px;
-    margin-right: 35%;
-    margin-left: 35%;
-}
-
-.responsive a:link,
-.responsive a:visited {
-    color: rgb(0, 125, 225);
-    text-decoration: none;
-    background-color: rgb(200, 200, 200);
-    padding: 4px;
-    border-radius: 6px;
-    transition-duration: 500ms;
-}
-
-.responsive a:hover {
-    color: blue;
-    background-color: rgb(150, 150, 150);
-    border-radius: 2px;
-    transition-duration: 500ms;
-    transition-delay: 75ms;
-}
-
-.responsive a:active {
-    color: blueviolet;
-}
-
-#ip {
-    background-color: rgb(59, 59, 59);
-    border: none;
-    border-radius: 6px;
-    color: gold;
-    font-size: 16px;
-    font-weight: bold;
-    width: 100px;
-}
-
-#ipButton {
-    background-color: rgb(59, 59, 59);
-    border: none;
-    color: lightgreen;
+footer {
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(30, 30, 30);
+    color: darkgray;
     font-size: 12px;
-    padding-left: 0px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
