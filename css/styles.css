@@ -1,34 +1,126 @@
+#ip {
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 6px;
+    color: #ffd700;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+}
+
+#ipButton {
+    background-color: #3b3b3b;
+    border: none;
+    color: #90ee90;
+    font-size: 12px;
+    padding-left: 0;
+}
+
+.adress .ip {
+    color: #ff7d00;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 200px auto 150px;
+}
+
+.features figure {
+    background-color: #000;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure figcaption:hover {
+    color: #000;
+    transition-duration: 500ms;
+}
+
+.features figure img {
+    height: 200px;
+    width: 200px;
+}
+
+.features figure img {
+    background-color: lightgray;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+
+.features figure:hover {
+    background-color: #a9a9a9;
+    transform: scale(1.5);
+    transition-delay: 100ms;
+    transition-duration: 500ms;
+}
+
+.responsive {
+    background-color: #c8c8c8;
+    border: 20px solid #c8c8c8;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.responsive li a:active {
+    color: #8a2be2;
+}
+
+.responsive li a:hover {
+    padding: 20px;
+    background-color: #969696;
+    border-radius: 8px;
+    color: blue;
+    transition-delay: 75ms;
+    transition-duration: 500ms;
+}
+
+.responsive a:link,
+.responsive a:visited {
+    background-color: #c8c8c8;
+    border-radius: 6px;
+    color: #007de1;
+    padding: 4px;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
 body {
-    background: rgb(59, 59, 59);
+    background: #3b3b3b;
     color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-figure img {
-    box-shadow: gray 0 0 10px;
-}
-
-footer,
-footer,
-footer figure img {
-    background-color: rgb(50, 50, 50);
-    border: 2px solid rgb(30, 30, 30);
-}
-
 header {
-    background: black;
-    background-image: url("../img/banner.png");
+    background: #000;
+    background-image: url(/img/banner.png);
     background-position: center;
     background-size: 100%;
-    height: 175px;
+    height: 150px;
     padding: 20px;
     text-align: center;
 }
 
 header .logo a {
-    background-image: url("../img/logo.png");
+    background-image: url(/img/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200px;
@@ -40,196 +132,23 @@ header .logo a {
     width: 300px;
 }
 
-.copyright {
-    color: gray;
-    font-size: 12px;
-    margin: 3px;
-}
-
-.copyright,
-.responsive li,
-.features figure {
-    padding: 0px;
-}
-
-footer figure img {
-    border-radius: 4px;
-    height: 30px;
-    width: 30px;
-}
-
-.responsive li {
-    margin-right: 0px;
-}
-
-nav li {
+li {
     display: inline-block;
     margin-right: 20px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.cover {
-    object-fit: cover;
-}
-
-.contain {
-    object-fit: contain;
-}
-
-footer,
-.features {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-}
-
 footer {
-    align-content: space-between;
-    justify-content: space-between;
-    margin-left: 0;
-    margin-right: auto;
-    padding: 0;
-}
-
-.features {
-    background-image: url("../img/background.png");
-    background-repeat: repeat-y;
-    background-position: top;
-    background-size: 100%;
-    align-content: space-around;
-    justify-content: space-around;
-    margin: 200px auto 100px auto;
-    padding: 30px;
-}
-
-.features figure {
-    background-color: black;
-    border-radius: 20px;
-    margin: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 200px;
-}
-
-.features figure a {
-    text-decoration: none;
-    color: lightgray;
-    font-size: 16px;
-}
-
-.features figure img {
-    height: 200px;
-    background-color: lightgray;
-    border: 1px solid white;
-    border-radius: 20px;
-    width: 200px;
-}
-
-.features figure figcaption:hover {
-    color: black;
-    transition-duration: 500ms;
-}
-
-.features figure:hover {
-    background-color: darkgray;
-    transition-duration: 500ms;
-    transition-delay: 100ms;
-    transform: scale(1.5);
-}
-
-footer img {
-    padding-right: 50;
-}
-
-.responsive {
-    background-color: rgb(200, 200, 200);
-    border: 6px solid rgb(200, 200, 200);
-    border-radius: 10px;
-    margin-right: 35%;
-    margin-left: 35%;
-}
-
-.responsive a:link,
-.responsive a:visited {
-    color: rgb(0, 125, 225);
-    text-decoration: none;
-    background-color: rgb(200, 200, 200);
-    padding: 4px;
-    border-radius: 6px;
-    transition-duration: 500ms;
-}
-
-.responsive a:hover {
-    color: blue;
-    background-color: rgb(150, 150, 150);
-    border-radius: 2px;
-    transition-duration: 500ms;
-    transition-delay: 75ms;
-}
-
-.responsive a:active {
-    color: blueviolet;
-}
-
-#ip {
-    background-color: rgb(59, 59, 59);
-    border: none;
-    border-radius: 6px;
-    color: gold;
-    font-size: 16px;
-    font-weight: bold;
-    width: 100px;
-}
-
-#ipButton {
-    background-color: rgb(59, 59, 59);
-    border: none;
-    color: lightgreen;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(30, 30, 30);
+    color: darkgray;
     font-size: 12px;
-    padding-left: 0px;
-}
-
-@media screen and (max-width: 612px) {
-    .responsive {
-        border-radius: 8px;
-        margin-right: 25%;
-        margin-left: 25%;
-    }
-}
-
-@media screen and (max-width: 596px) {
-    .features {
-        padding: 15px;
-    }
-
-    .features figure {
-        margin: 15px;
-        width: 150px;
-    }
-
-    .features figure a {
-        font-size: 8px;
-    }
-
-    .features figure img {
-        height: 150px;
-        width: 150px;
-    }
-}
-
-@media screen and (max-width: 389px) {
-    .responsive {
-        border-radius: 6px;
-        margin-right: 15%;
-        margin-left: 15%;
-    }
-
-    header {
-        background-size: 200%;
-    }
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
