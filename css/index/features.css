@@ -5,7 +5,7 @@
 .features {
     align-content: space-around;
     align-items: center;
-    background-image: url(/img/background.png);
+    background-image: url(../../img/background.png);
     background-position: top;
     background-repeat: repeat-y;
     background-size: 100%;
