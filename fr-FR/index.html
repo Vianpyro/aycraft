@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="../src/img/logo.png" />
+        <link rel="stylesheet" href="../src/css/index/features.css" />
+        <link rel="stylesheet" href="../src/css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Aycraft</title>
+        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+            new Crate({
+                        server: "321454419147489280",
+                        channel: "468075788135301120",
+                        shard: "https://disweb.deploys.io"
+                    });
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="info">
+                    <li class="logo"><a href="index.html">Aycraft logo</a></li>
+                    <br />
+                    <li>
+                        <figure class="ip">
+                            IP du serveur:
+                            <input type="text" value="data.craft.gg" id="ip" readonly />
+                            <button onclick="copyIp()" onmouseout="outIp()" id="ipButton"><span>Copier</span></button>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="responsive">
+                    <!-- <li><a href="">Log in</a></li> -->
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="pages/games.html">Jeux</a></li>
+                    <li><a href="https://github.com/Aycraft" target="_blank">GitHub</a></li>
+                    <li><a href="pages/rules.html">Rêgles</a></li>
+                    <li><a href="pages/support.html">Assistance</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="features">
+            <figure>
+                <a href="https://discord.me/Aycraft" target="_blank">
+                    <img src="../src/img/discord.png" alt="follow discord" class="cover" />
+                    <figcaption>Rejoins le chat sur discord!</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#">
+                    <img src="../src/img/banner.png" alt="brand new spawn" class="cover" />
+                    <figcaption>Visite ce magnifique spawn de la V6!</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="https://twitter.com/serveuraycraft" target="_blank">
+                    <img src="../src/img/twitter_bird.png" alt="follow twitter" class="contain" />
+                    <figcaption>Follow nous sur Twitter!</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="#">
+                    <img src="../src/img/logo.png" alt="brand new logo" class="cover" />
+                    <figcaption>Le serveur a un tout nouveau logo!</figcaption>
+                </a>
+            </figure>
+        </section>
+        <footer>
+            <p class="copyright">&copy; Site web d'Aycraft par Vianpyro - Licence MIT</p>
+        </footer>
+        <script src="../src/js/copy_ip.js"></script>
+    </body>
+</html>
