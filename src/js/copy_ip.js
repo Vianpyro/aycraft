@@ -18,6 +18,7 @@ function copyIp() {
     var ipButton = document.getElementById("ipButton");
     switch (sysLang) {
         case "fr-CA":
+        case "fr-FR":
             ipButton.innerHTML = 'Copié: "' + copyText.value + '" dans le presse-papier.';
             break;
         case "en-US":
@@ -33,6 +34,7 @@ function outIp() {
     var ipButton = document.getElementById("ipButton");
     switch (sysLang) {
         case "fr-CA":
+        case "fr-FR":
             ipButton.innerHTML = "Copier";
             break;
         case "en-US":
