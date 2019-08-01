@@ -1,4 +1,6 @@
-let sysLang = window.location.pathname; // Récupère la langue du navigateur (even if changed by user)
+let url = location.pathname;
+let regex = /\/(\w{2}-\w{2})\//gm;
+let match = regex.exec(url)[1];
 
 function clearSelection() {
     if (window.getSelection) {
@@ -15,7 +17,7 @@ function copyIp() {
     clearSelection();
 
     var ipButton = document.getElementById("ipButton");
-    switch (sysLang) {
+    switch (match) {
         case "fr-CA":
         case "fr-FR":
             ipButton.innerHTML = 'Copié: "' + copyText.value + '" dans le presse-papier.';
@@ -31,7 +33,7 @@ function copyIp() {
 
 function outIp() {
     var ipButton = document.getElementById("ipButton");
-    switch (sysLang) {
+    switch (match) {
         case "fr-CA":
         case "fr-FR":
             ipButton.innerHTML = "Copier";

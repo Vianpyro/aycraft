@@ -10,10 +10,9 @@
     outline: none;
     position: fixed;
     right: 30px;
+    transition: 500ms;
     visibility: hidden;
     width: 40px;
-
-    transition: 500ms;
 }
 
 #bnt_scroll_top:active {
