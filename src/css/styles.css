@@ -102,6 +102,17 @@
     transition-duration: 500ms;
 }
 
+.title {
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+}
+
+.title p {
+    margin-top: 175px;
+    text-align: center;
+}
+
 body {
     background: #3b3b3b;
     color: lightgray;

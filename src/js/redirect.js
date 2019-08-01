@@ -1,5 +1,4 @@
 let sysLang = navigator.language; // Récupère la langue du navigateur
-
 let meta = document.head.querySelector('[http-equiv="refresh"]'); // récupère le meta qui nous intéresse
 
 switch (sysLang) {
