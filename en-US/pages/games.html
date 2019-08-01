@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon" href="../../src/img/logo.png" />
+        <link rel="stylesheet" href="../../src/css/index/features.css" />
+        <link rel="stylesheet" href="../../src/css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Aycraft - Games</title>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav>
+                <ul class="info">
+                    <li class="logo"><a href="index.html">Aycraft logo</a></li>
+                    <br />
+                    <li>
+                        <figure class="ip">
+                            Server ip:
+                            <input type="text" value="data.craft.gg" id="ip" readonly />
+                            <button onclick="copyIp()" onmouseout="outIp()" id="ipButton"><span>Copy</span></button>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="responsive">
+                    <!-- <li><a href="">Log in</a></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/games.html">Games</a></li>
+                    <li><a href="https://github.com/Aycraft" target="_blank">GitHub</a></li>
+                    <li><a href="pages/rules.html">Rules</a></li>
+                    <li><a href="pages/support.html">Support</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
 </html>
