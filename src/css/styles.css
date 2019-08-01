@@ -42,6 +42,7 @@
     text-align: center;
     text-transform: uppercase;
     width: 200px;
+    margin: 25px 40px;
 }
 
 .features figure figcaption:hover {
