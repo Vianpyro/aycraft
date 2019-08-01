@@ -1,3 +1,30 @@
+#bnt_scroll_top {
+    animation-duration: 500ms;
+    background-color: rgba(255, 10, 10, 0.1);
+    border-radius: 50%;
+    bottom: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    outline: none;
+    position: fixed;
+    right: 30px;
+    visibility: hidden;
+    width: 40px;
+
+    transition: 500ms;
+}
+
+#bnt_scroll_top:active {
+    background-color: #8b0000;
+}
+
+#bnt_scroll_top:hover {
+    background-color: rgba(255, 10, 10, 1);
+    transform: scale(1.25);
+}
+
 #ip {
     background-color: #3b3b3b;
     border: none;
@@ -39,10 +66,10 @@
     background-color: #000;
     border-radius: 20px;
     margin: auto;
+    margin: 25px 40px;
     text-align: center;
     text-transform: uppercase;
     width: 200px;
-    margin: 25px 40px;
 }
 
 .features figure figcaption:hover {
@@ -51,15 +78,12 @@
 }
 
 .features figure img {
-    height: 200px;
-    width: 200px;
-}
-
-.features figure img {
     background-color: lightgray;
     border: 1px solid #fff;
     border-radius: 20px;
     box-shadow: gray 0 0 10px;
+    height: 200px;
+    width: 200px;
     width: 200px;
 }
 
@@ -79,19 +103,6 @@
     margin-right: 30%;
 }
 
-.responsive li a:active {
-    color: #8a2be2;
-}
-
-.responsive li a:hover {
-    padding: 20px;
-    background-color: #969696;
-    border-radius: 8px;
-    color: blue;
-    transition-delay: 75ms;
-    transition-duration: 500ms;
-}
-
 .responsive a:link,
 .responsive a:visited {
     background-color: #c8c8c8;
@@ -99,6 +110,19 @@
     color: #007de1;
     padding: 4px;
     text-decoration: none;
+    transition-duration: 500ms;
+}
+
+.responsive li a:active {
+    color: #8a2be2;
+}
+
+.responsive li a:hover {
+    background-color: #969696;
+    border-radius: 8px;
+    color: blue;
+    padding: 20px;
+    transition-delay: 75ms;
     transition-duration: 500ms;
 }
 
@@ -119,6 +143,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+footer {
+    background-color: #323232;
+    border: 1px solid #1e1e1e;
+    color: #a9a9a9;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 header {
@@ -151,16 +185,6 @@ li {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-footer {
-    background-color: rgb(50, 50, 50);
-    border: 1px solid rgb(30, 30, 30);
-    color: darkgray;
-    font-size: 12px;
-    text-align: center;
     margin: 0;
     padding: 0;
 }

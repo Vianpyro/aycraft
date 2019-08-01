@@ -1,7 +1,33 @@
-h3 {
-    color: rgb(100, 198, 255);
-    text-decoration: underline;
-    margin: 20px 0px 10px 0px;
+.footer {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rules {
+    margin: 3%;
+}
+
+.texts {
+    background-color: #5c5c5c;
+    border: solid 2px #2f4f4f;
+    padding: 10px;
+}
+
+.texts ul {
+    margin: 0;
+    padding: 0;
+}
+
+.texts ul li number {
+    color: #afafaf;
+    margin-right: 10px;
+}
+
+.texts ul li p {
+    font-size: 15px;
+    margin: 0 0 15px;
+    padding-left: 20px;
 }
 
 .title {
@@ -10,39 +36,13 @@ h3 {
 
 .title,
 .footer {
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 2px black;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px #000;
 }
 
-.rules {
-    margin: 3%;
-}
-
-.texts {
-    border: solid 2px darkslategray;
-    background-color: rgb(92, 92, 92);
-    padding: 10px;
-}
-
-.texts ul li p {
-    margin: 0px 0px 15px 0px;
-    padding-left: 20px;
-    font-size: 15px;
-}
-
-.texts ul li number {
-    color: rgb(175, 175, 175);
-    margin-right: 10px;
-}
-
-.texts ul {
-    margin: 0;
-    padding: 0;
-}
-
-.footer {
-    text-transform: uppercase;
-    font-size: 15px;
-    text-align: center;
+h3 {
+    color: #64c6ff;
+    margin: 20px 0 10px;
+    text-decoration: underline;
 }
