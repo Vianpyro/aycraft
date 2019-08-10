@@ -2,48 +2,48 @@
     "news": [
         {
             "available": "true",
+            "date": "2019-08-09",
+            "href": "#",
+            "image": "./src/img/redesignedws.png",
+            "image_type": "cover",
+            "target": "",
+            "title": "The web page has been redesigned!"
+        },
+        {
+            "available": "true",
             "date": "2019-??-??",
             "href": "https://discord.me/Aycraft",
-            "id": 4,
             "image": "./src/img/discord.png",
-            "image_type": "",
+            "image_type": "contain",
+            "target": "_blank",
             "title": "Join the chat on Discord!"
         },
         {
             "available": "true",
             "date": "2019-??-??",
-            "href": "",
-            "id": 3,
+            "href": "#",
             "image": "./src/img/banner.png",
-            "image_type": "",
+            "image_type": "cover",
+            "target": "",
             "title": "Visit this beautiful spawn of the v6!"
         },
         {
             "available": "true",
             "date": "2019-??-??",
             "href": "https://twitter.com/serveuraycraft",
-            "id": 2,
             "image": "./src/img/twitter_bird.png",
-            "image_type": "",
+            "image_type": "contain",
+            "target": "_blank",
             "title": "Follow us on twitter!"
         },
         {
             "available": "true",
             "date": "2019-??-??",
             "href": "#",
-            "id": 1,
             "image": "./src/img/logo.png",
-            "image_type": "",
+            "image_type": "contain",
+            "target": "",
             "title": "The server has a brand new logo!"
-        },
-        {
-            "available": "false",
-            "date": "2019-08-09",
-            "href": "#",
-            "id": 0,
-            "image": "none",
-            "image_type": "none",
-            "title": "The server web page has been fully redesigned!"
         }
     ]
 }

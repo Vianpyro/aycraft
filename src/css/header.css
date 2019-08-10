@@ -28,6 +28,8 @@ img#logo {
 
 img#logo:hover {
     cursor: initial;
+    filter: brightness(120%);
+    opacity: 0.9;
     height: 10em;
     padding: 1em;
 }

@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    background: url(../img/background.png);
     margin: 0;
     padding: 0;
 }

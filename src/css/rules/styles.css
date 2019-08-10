@@ -1,0 +1,51 @@
+.footer {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rules {
+    margin: 3%;
+}
+
+.texts {
+    background-color: #777;
+    border: solid 2px #2f4f4f;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.texts ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.texts ul li number {
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.texts ul li p {
+    font-size: 15px;
+    margin: 0 0 15px;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.title,
+.footer {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px #000;
+}
+
+h3 {
+    color: #64c6ff;
+    margin: 20px 0 10px;
+    text-decoration: underline;
+}

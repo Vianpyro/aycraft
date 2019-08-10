@@ -3,10 +3,10 @@ let langList = ["en-US", "fr-FR"];
 let isLanguageAvailable = langList.includes(userLang);
 
 if (isLanguageAvailable) {
-    myRequest = new Request(`./src/lang/${userLang}.json`);
+    myRequest = new Request(`../src/lang/${userLang}.json`);
     console.log(`User language (${userLang}) is available`);
 } else {
-    myRequest = new Request("./src/lang/en-US.json");
+    myRequest = new Request("../src/lang/en-US.json");
     console.log(`The user language (${userLang}) is unfortunately not available`);
 }
 
