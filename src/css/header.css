@@ -21,7 +21,15 @@ div.logo {
 
 img#logo {
     cursor: initial;
-    height: 12em;
+    height: 8em;
+    padding: 2em;
+    transition-duration: 500ms;
+}
+
+img#logo:hover {
+    cursor: initial;
+    height: 10em;
+    padding: 1em;
 }
 
 /*

@@ -6,7 +6,7 @@ if (isLanguageAvailable) {
     myRequest = new Request(`./src/lang/${userLang}.json`);
     console.log(`User language (${userLang}) is available`);
 } else {
-    myRequest = new Request("./src/lang/fr-FR.json");
+    myRequest = new Request("./src/lang/en-US.json");
     console.log(`The user language (${userLang}) is unfortunately not available`);
 }
 
