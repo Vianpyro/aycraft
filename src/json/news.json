@@ -2,7 +2,7 @@
     "news": [
         {
             "available": "true",
-            "date": "2019-08-09",
+            "date": "2019-08-11",
             "href": "#",
             "image": "./src/img/redesignedws.png",
             "image_type": "cover",
@@ -11,7 +11,7 @@
         },
         {
             "available": "true",
-            "date": "2019-??-??",
+            "date": "2019-08-10",
             "href": "https://discord.me/Aycraft",
             "image": "./src/img/discord.png",
             "image_type": "contain",
@@ -20,7 +20,7 @@
         },
         {
             "available": "true",
-            "date": "2019-??-??",
+            "date": "2019-08-09",
             "href": "#",
             "image": "./src/img/banner.png",
             "image_type": "cover",
@@ -29,7 +29,7 @@
         },
         {
             "available": "true",
-            "date": "2019-??-??",
+            "date": "2019-08-08",
             "href": "https://twitter.com/serveuraycraft",
             "image": "./src/img/twitter_bird.png",
             "image_type": "contain",
@@ -38,7 +38,7 @@
         },
         {
             "available": "true",
-            "date": "2019-??-??",
+            "date": "2019-08-07",
             "href": "#",
             "image": "./src/img/logo.png",
             "image_type": "contain",

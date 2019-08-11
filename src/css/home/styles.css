@@ -43,6 +43,10 @@
     width: 200px;
 }
 
+#news strong {
+    color: gold;
+}
+
 .contain {
     object-fit: contain;
 }
