@@ -1,12 +1,12 @@
-let userLang = navigator.language || navigator.userLanguage;
-let langList = ["en-US", "fr-FR"];
+let userLang = navigator.language.slice(0, 2) || navigator.userLanguage.slice(0, 2) || "";
+let langList = ["en", "fr"];
 let isLanguageAvailable = langList.includes(userLang);
 
 if (isLanguageAvailable) {
     myRequest = new Request(`../src/lang/${userLang}.json`);
     console.log(`User language (${userLang}) is available`);
 } else {
-    myRequest = new Request("../src/lang/en-US.json");
+    myRequest = new Request("../src/lang/en.json");
     console.log(`The user language (${userLang}) is unfortunately not available`);
 }
 
