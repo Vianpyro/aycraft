@@ -32,6 +32,7 @@ async function updateNews() {
                         case "fr":
                             document.getElementById("news").innerHTML += `<figure id='data_news_${i}of${MAX_NB_NEWS}'><a href='${element.href}' target='${element.target}'><img src='${element.image}' class='${element.image_type}'>
                                 <figcaption><strong>New!</strong> ${element.title.fr}</figcaption></a></figure>`;
+                            break;
                         default:
                             document.getElementById("news").innerHTML += `<figure id='data_news_${i}of${MAX_NB_NEWS}'><a href='${element.href}' target='${element.target}'><img src='${element.image}' class='${element.image_type}'>
                                 <figcaption><strong>New!</strong> ${element.title.en}</figcaption></a></figure>`;
@@ -41,6 +42,7 @@ async function updateNews() {
                         case "fr":
                             document.getElementById("news").innerHTML += `<figure id='data_news_${i}of${MAX_NB_NEWS}'><a href='${element.href}' target='${element.target}'><img src='${element.image}' class='${element.image_type}'>
                                 <figcaption>${element.title.fr}</figcaption></a></figure>`;
+                            break;
                         default:
                             document.getElementById("news").innerHTML += `<figure id='data_news_${i}of${MAX_NB_NEWS}'><a href='${element.href}' target='${element.target}'><img src='${element.image}' class='${element.image_type}'>
                                 <figcaption>${element.title.en}</figcaption></a></figure>`;
