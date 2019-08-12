@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" href="./src/img/logo.png" />
+        <link rel="stylesheet" href="./src/css/btn_scroll_top.css" />
+        <link rel="stylesheet" href="./src/css/footer.css" />
+        <link rel="stylesheet" href="./src/css/header.css" />
+        <link rel="stylesheet" href="./src/css/home/styles.css" />
+        <link rel="stylesheet" href="./src/css/styles.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="version" content="0.2.6" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Redirecting to Aycraft...</title>
-        <script src="./src/js/redirect.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aycraft</title>
+        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+            new Crate({
+                        server: "321454419147489280",
+                        channel: "468075788135301120",
+                        shard: "https://disweb.deploys.io"
+                    });
+        </script>
     </head>
-    <body></body>
-</html>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./src/img/logo.png" alt="Aycraft logo" id="logo"/></a>
+                </div>
+                <div>
+                    <figure class="ip">
+                        <span id="lang-header_serverip_text">Server ip:</span>
+                        <input type="text" value="data.craft.gg" id="ip" readonly />
+                        <button onclick="copyIp()" onmouseout="outIp()" id="ipButton">
+                            <span id="lang-header_serverip_copyBtn">Copy</span>
+                        </button>
+                    </figure>
+                </div>
+                <div class="menu-container">
+                    <ul class="menu">
+                        <!-- <li><a href="">Log in</a></li> -->
+                        <li><a href="./index.html" id="lang-header_menu_home"></a></li>
+                        <li><a href="#" id="lang-header_menu_games"></a></li>
+                        <li><a href="https://github.com/Aycraft" target="_blank">GitHub</a></li>
+                        <li><a href="./pages/rules.html" id="lang-header_menu_rules"></a></li>
+                        <li><a href="#" id="lang-header_menu_support"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
 
-<!-- <a>Aycraft's our little baby Minecraft&copy; vanilla server. What it means? Simply ; we didn't ever used any plug-in to manage it! It's 100% running by Minecraft functions!</a> -->
+        <div id="news"></div>
+
+        <footer>
+            <p class="copyright">&copy; Aycraft web site by Vianpyro - MIT License</p>
+        </footer>
+
+        <button id="btn_scroll_top"><i class="material-icons">arrow_upward</i></button>
+        <script src="src/js/home_news.js"></script>
+        <script src="src/js/lang.js"></script>
+        <script src="./src/js/btn_scroll_top.js"></script>
+        <script src="./src/js/copy_ip.js"></script>
+    </body>
+</html>

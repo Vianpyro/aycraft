@@ -1,0 +1,140 @@
+header {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-image: url(../../src/img/banner.png);
+    background-position: center;
+    background-size: 100%;
+    filter: brightness(95%);
+    text-align: center;
+    top: 0;
+    user-select: none;
+}
+/*
+LOGO
+*/
+
+div.logo {
+    background-position: center;
+    background-size: 100%;
+}
+
+img#logo {
+    cursor: initial;
+    height: 8em;
+    padding: 2em;
+    transition-duration: 500ms;
+}
+
+img#logo:hover {
+    cursor: initial;
+    filter: brightness(120%);
+    opacity: 0.9;
+    height: 10em;
+    padding: 1em;
+}
+
+/*
+IP LINK
+*/
+
+figure.ip {
+    text-align: center;
+    background-color: rgba(59, 59, 59, 95%);
+    border-radius: 24px 24px 0 0;
+    color: lightgray;
+    margin: 0 30%;
+    padding: 1em;
+}
+
+figure.ip button#ipButton {
+    background: none;
+    border: none;
+    color: #90ee90;
+    font-size: 12px;
+}
+
+figure.ip input#ip {
+    background: none;
+    border: none;
+    border-radius: 6px;
+    color: #ffd700;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 5px;
+    width: 6em;
+}
+
+/*
+MENU
+*/
+
+@media screen and (max-width: 1103px) {
+    .menu li a {
+        margin: 0;
+    }
+}
+
+.menu a:link,
+.menu a:visited {
+    color: #3b3b3b;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
+.menu li a:hover {
+    background-color: #969696;
+    border-radius: 8px;
+    color: blue;
+    font-weight: 700;
+    padding: 20px;
+}
+
+div.menu-container {
+    margin: 0 30%;
+}
+
+ul.menu {
+    background-color: #c8c8c8;
+    border: 20px solid #c8c8c8;
+    border-radius: 0 0 24px 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    transition-delay: 75ms;
+}
+/*
+SCREEN SIZE ADAPTION
+*/
+
+@media screen and (max-width: 1103px) {
+    div.menu-container {
+        margin: 0 15%;
+    }
+
+    figure.ip {
+        margin: 0 15%;
+    }
+}
+
+@media screen and (max-width: 673px) {
+    header {
+        background-size: 300%;
+    }
+
+    div.menu-container {
+        margin: 0;
+    }
+
+    figure.ip {
+        margin: 0;
+    }
+
+    ul.menu {
+        font-size: 13px;
+    }
+}

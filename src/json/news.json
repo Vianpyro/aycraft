@@ -1,0 +1,64 @@
+{
+    "news": [
+        {
+            "available": "true",
+            "date": "2019-08-11",
+            "href": "#",
+            "image": "./src/img/redesignedws.png",
+            "image_type": "cover",
+            "target": "",
+            "title": {
+                "en": "The web page has been redesigned!",
+                "fr": "La page web a été redeseignée!"
+            }
+        },
+        {
+            "available": "true",
+            "date": "2019-08-10",
+            "href": "https://discord.me/Aycraft",
+            "image": "./src/img/discord.png",
+            "image_type": "contain",
+            "target": "_blank",
+            "title": {
+                "en": "Join the chat on Discord!",
+                "fr": "Viens clavarder sur Discord!"
+            }
+        },
+        {
+            "available": "true",
+            "date": "2019-08-09",
+            "href": "#",
+            "image": "./src/img/banner.png",
+            "image_type": "cover",
+            "target": "",
+            "title": {
+                "en": "Visit this beautiful spawn of the v6!",
+                "fr": "Visites ce magnifique spawn de la V6!"
+            }
+        },
+        {
+            "available": "true",
+            "date": "2019-08-08",
+            "href": "https://twitter.com/serveuraycraft",
+            "image": "./src/img/twitter_bird.png",
+            "image_type": "contain",
+            "target": "_blank",
+            "title": {
+                "en": "Follow us on twitter!",
+                "fr": "Suis-nous sur twitter!"
+            }
+        },
+        {
+            "available": "true",
+            "date": "2019-08-07",
+            "href": "#",
+            "image": "./src/img/logo.png",
+            "image_type": "contain",
+            "target": "",
+            "title": {
+                "en": "The server has a brand new logo!",
+                "fr": "Le serveur a un tout nouveau logo!"
+            }
+        }
+    ]
+}

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" href="../../src/img/logo.png" />
-        <link rel="stylesheet" href="../../src/css/index/features.css" />
-        <link rel="stylesheet" href="../../src/css/styles.css" />
-        <link rel="stylesheet" href="../../src/css/pages/rules.css" />
+        <link rel="stylesheet" href="../src/css/btn_scroll_top.css" />
+        <link rel="stylesheet" href="../src/css/footer.css" />
+        <link rel="stylesheet" href="../src/css/header.css" />
+        <link rel="stylesheet" href="../src/css/rules/styles.css" />
+        <link rel="stylesheet" href="../src/css/styles.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,27 +21,29 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul class="info">
-                    <li class="logo"><a href="../index.html">Aycraft logo</a></li>
-                    <br />
-                    <li>
-                        <figure class="ip">
-                            Server ip:
-                            <input type="text" value="data.craft.gg" id="ip" readonly />
-                            <button onclick="copyIp()" onmouseout="outIp()" id="ipButton"><span>Copy</span></button>
-                        </figure>
-                    </li>
-                </ul>
-                <ul class="responsive">
-                    <!-- <li><a href="">Log in</a></li> -->
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="games.html">Games</a></li>
-                    <li><a href="https://github.com/Aycraft" target="_blank">GitHub</a></li>
-                    <li><a href="rules.html">Rules</a></li>
-                    <li><a href="support.html">Support</a></li>
-                </ul>
-            </nav>
+            <div class="logo">
+                <a href="#"><img src="../src/img/logo.png" alt="Aycraft logo" id="logo"/></a>
+                </div>
+                <div>
+                    <figure class="ip">
+                        <span id="lang-header_serverip_text">Server ip:</span>
+                        <input type="text" value="data.craft.gg" id="ip" readonly />
+                        <button onclick="copyIp()" onmouseout="outIp()" id="ipButton">
+                            <span id="lang-header_serverip_copyBtn">Copy</span>
+                        </button>
+                    </figure>
+                </div>
+                <div class="menu-container">
+                    <ul class="menu">
+                        <!-- <li><a href="">Log in</a></li> -->
+                        <li><a href="../index.html" id="lang-header_menu_home"></a></li>
+                        <li><a href="#" id="lang-header_menu_games"></a></li>
+                        <li><a href="https://github.com/Aycraft" target="_blank">GitHub</a></li>
+                        <li><a href="./rules.html" id="lang-header_menu_rules"></a></li>
+                        <li><a href="#" id="lang-header_menu_support"></a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
 
         <div class="rules">
@@ -170,11 +173,14 @@
                 <p>and that he undertakes to comply with the terms and conditions.</p>
             </div>
         </div>
+
         <footer>
             <p class="copyright">&copy; Aycraft web site by Vianpyro - MIT License</p>
         </footer>
-        <button id="bnt_scroll_top"><i class="material-icons">arrow_upward</i></button>
-        <script src="../../src/js/bnt_scroll_top.js"></script>
-        <script src="../../src/js/copy_ip.js"></script>
+
+        <button id="btn_scroll_top"><i class="material-icons">arrow_upward</i></button>
+        <script src="../src/js/lang.js"></script>
+        <script src="../src/js/btn_scroll_top.js"></script>
+        <script src="../src/js/copy_ip.js"></script>
     </body>
 </html>
