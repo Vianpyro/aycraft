@@ -7,7 +7,10 @@
             "image": "./src/img/redesignedws.png",
             "image_type": "cover",
             "target": "",
-            "title": "The web page has been redesigned!"
+            "title": {
+                "en": "The web page has been redesigned!",
+                "fr": "La page web a été redeseignée!"
+            }
         },
         {
             "available": "true",
@@ -16,7 +19,10 @@
             "image": "./src/img/discord.png",
             "image_type": "contain",
             "target": "_blank",
-            "title": "Join the chat on Discord!"
+            "title": {
+                "en": "Join the chat on Discord!",
+                "fr": "Viens clavarder sur Discord!"
+            }
         },
         {
             "available": "true",
@@ -25,7 +31,10 @@
             "image": "./src/img/banner.png",
             "image_type": "cover",
             "target": "",
-            "title": "Visit this beautiful spawn of the v6!"
+            "title": {
+                "en": "Visit this beautiful spawn of the v6!",
+                "fr": "Visites ce magnifique spawn de la V6!"
+            }
         },
         {
             "available": "true",
@@ -34,7 +43,10 @@
             "image": "./src/img/twitter_bird.png",
             "image_type": "contain",
             "target": "_blank",
-            "title": "Follow us on twitter!"
+            "title": {
+                "en": "Follow us on twitter!",
+                "fr": "Suis-nous sur twitter!"
+            }
         },
         {
             "available": "true",
@@ -43,7 +55,10 @@
             "image": "./src/img/logo.png",
             "image_type": "contain",
             "target": "",
-            "title": "The server has a brand new logo!"
+            "title": {
+                "en": "The server has a brand new logo!",
+                "fr": "Le serveur a un tout nouveau logo!"
+            }
         }
     ]
 }
