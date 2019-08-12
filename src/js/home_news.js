@@ -27,11 +27,11 @@ async function updateNews() {
         news.slice(0, MAX_NB_NEWS).forEach((element, i) => {
             console.log(translateLang);
             if (element.available === "true") {
-                if (`${element.date}` === getDate()) {
+                if (element.date === getDate()) {
                     switch (translateLang) {
                         case "fr":
                             document.getElementById("news").innerHTML += `<figure id='data_news_${i}of${MAX_NB_NEWS}'><a href='${element.href}' target='${element.target}'><img src='${element.image}' class='${element.image_type}'>
-                                <figcaption><strong>New!</strong> ${element.title.fr}</figcaption></a></figure>`;
+                                <figcaption><strong>Nouveau!</strong> ${element.title.fr}</figcaption></a></figure>`;
                             break;
                         default:
                             document.getElementById("news").innerHTML += `<figure id='data_news_${i}of${MAX_NB_NEWS}'><a href='${element.href}' target='${element.target}'><img src='${element.image}' class='${element.image_type}'>
