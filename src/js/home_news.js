@@ -19,13 +19,14 @@ function getDate() {
 
     return [year, month, day].join("-");
 }
+console.info("Today is the " + getDate());
 
 async function updateNews() {
     try {
         const data = new Request(`./src/json/news.json`);
         const { news } = await fetch(data).then(data => data.json());
         news.slice(0, MAX_NB_NEWS).forEach((element, i) => {
-            console.log(translateLang);
+            console.log("Translating news into " + translateLang);
             if (element.available === "true") {
                 if (element.date === getDate()) {
                     switch (translateLang) {
