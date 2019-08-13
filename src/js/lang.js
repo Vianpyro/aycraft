@@ -4,11 +4,12 @@ let isLanguageAvailable = langList.includes(userLang);
 
 if (isLanguageAvailable) {
     myRequest = new Request(`../src/lang/${userLang}.json`);
-    console.log(`User language (${userLang}) is available`);
+    console.info(`User language (${userLang}) is available`);
 } else {
     myRequest = new Request("../src/lang/en.json");
-    console.log(`The user language (${userLang}) is unfortunately not available`);
+    console.info(`The user language (${userLang}) is unfortunately not available`);
 }
+console.log(myRequest);
 
 fetch(myRequest)
     .then(resp => {
