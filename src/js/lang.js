@@ -3,16 +3,17 @@ let langList = ["en", "fr"];
 let isLanguageAvailable = langList.includes(userLang);
 
 if (isLanguageAvailable) {
-    myRequest = new Request(`../../src/lang/${userLang}.json`);
+    var myRequest = new Request(`../../src/lang/${userLang}.json`);
     console.info(`User language (${userLang}) is available`);
 } else {
-    myRequest = new Request("../../src/lang/en.json");
+    var myRequest = new Request("../../src/lang/en.json");
     console.info(`The user language (${userLang}) is unfortunately not available`);
 }
 console.log(myRequest);
 
 fetch(myRequest)
     .then(resp => {
+        console.log(resp.ok); // returns true if the response returned successfully
         resp.json()
             .then(data => {
                 document.getElementById("lang-header_serverip_text").innerHTML = data.header_serverip_text;
