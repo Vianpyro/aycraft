@@ -1,8 +1,23 @@
 {
-    "header_menu_games": "Games",
-    "header_menu_home": "Home",
-    "header_menu_rules": "Rules",
-    "header_menu_support": "Support",
-    "header_serverip_text": "Server ip:",
-    "header_serverip_copy_btn": "Copy"
+    "header": {
+        "menu": {
+            "games": "Games",
+            "home": "Home",
+            "rules": "Rules",
+            "support": "support"
+        },
+        "serverip": {
+            "text": "Server ip:",
+            "copy_btn": "Copy"
+        }
+    },
+    "rules": {
+        "title": "Aycraft general rules and regulations",
+        "texts": {
+            "p1": {
+                "basic_principles": "Basic principles",
+                "behaviour_play": "Behaviour in play"
+            }
+        }
+    }
 }
