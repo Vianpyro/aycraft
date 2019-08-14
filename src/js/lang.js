@@ -3,8 +3,8 @@ let langList = ["en", "fr"];
 let isLanguageAvailable = langList.includes(userLang);
 
 if (isLanguageAvailable) {
-    // var myRequest = new Request(`https://vianpyro.github.io/Aycraft/src/lang/${userLang}.json`); // This one should active on GitHub
-    var myRequest = new Request(`../src/lang/${userLang}.json`); // This one is used for tests
+    var myRequest = new Request(`https://vianpyro.github.io/Aycraft/src/lang/${userLang}.json`); // This one should active on GitHub
+    // var myRequest = new Request(`../src/lang/${userLang}.json`); // This one is used for tests
     console.info(`User language (${userLang}) is available`);
 } else {
     var myRequest = new Request("https://vianpyro.github.io/Aycraft/src/lang/en.json");
