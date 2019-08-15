@@ -17,7 +17,7 @@ fetch(myRequest)
         resp.json()
             .then(data => {
                 switch (window.location.pathname) {
-                    case "/index.html":
+                    case "Aycraft/index.html":
                         document.getElementById("lang-header_serverip_text").innerHTML = data.header.serverip.text;
                         document.getElementById("lang-header_serverip_copyBtn").innerHTML = data.header.serverip.copy_btn;
                         document.getElementById("lang-header_menu_home").innerHTML = data.header.menu.home;
@@ -25,7 +25,7 @@ fetch(myRequest)
                         document.getElementById("lang-header_menu_rules").innerHTML = data.header.menu.rules;
                         document.getElementById("lang-header_menu_support").innerHTML = data.header.menu.support;
                         break;
-                    case "/pages/rules.html":
+                    case "Aycraft/pages/rules.html":
                         document.getElementById("lang-header_serverip_text").innerHTML = data.header.serverip.text;
                         document.getElementById("lang-header_serverip_copyBtn").innerHTML = data.header.serverip.copy_btn;
                         document.getElementById("lang-header_menu_home").innerHTML = data.header.menu.home;
