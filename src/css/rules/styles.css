@@ -16,20 +16,14 @@
 }
 
 .texts ul {
-    list-style-type: none;
-    margin: 0;
+    list-style-type: upper-roman;
+    margin: 2em;
     padding: 0;
 }
 
-.texts ul li number {
-    color: #aaa;
-    margin-right: 10px;
-}
-
 .texts ul li p {
+    color: #ccc;
     font-size: 15px;
-    margin: 0 0 15px;
-    padding-left: 20px;
 }
 
 .title {

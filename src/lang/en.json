@@ -16,6 +16,9 @@
         "texts": {
             "p1": {
                 "basic_principles": "Basic principles",
+                "n1": "Players must respect other players and staff. Any form of insult, discrimination, prejudice to the image of others is punished. Being courteous and polite is essential."
+            },
+            "p2": {
                 "behaviour_play": "Behaviour in play"
             }
         }
