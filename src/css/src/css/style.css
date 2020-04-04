@@ -1,0 +1,17 @@
+/* TAGS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+a:link, a:visited {
+    color: #eee;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ffa500;
+    text-decoration: none;
+}
